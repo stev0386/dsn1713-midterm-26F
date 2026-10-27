@@ -1,8 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Sarala:wght@400;700&display=swap');
 
 /* Set custom variables here */
+:root {
+  --bs-body-bg: #f6f3ed;
+  --bs-body-bg-rgb: 246, 243, 237;
 
+  --bs-primary: #2e483a;
+  --bs-primary-rgb: 46, 72, 58;
 
+  --bs-light: #f6f3ed;
+  --bs-light-rgb: 246, 243, 237;
+}
+
+.btn-primary {
+  --bs-btn-color: var(--bs-light);
+  --bs-btn-bg: var(--bs-primary);
+  --bs-btn-border-color: var(--bs-primary);
+
+  --bs-btn-hover-color: var(--bs-light);
+  --bs-btn-hover-bg: #253a2f;
+
+  --bs-btn-active-color: var(--bs-light);
+  --bs-btn-active-bg: #1e3026;
+  --bs-btn-active-border-color: #1e3026;
+
+  --bs-btn-disabled-color: var(--bs-light);
+  --bs-btn-disabled-bg: var(--bs-primary);
+  --bs-btn-disabled-border-color: var(--bs-primary);
+}
 
 
 
@@ -21,7 +46,7 @@ h1, h2, h3 {
 #hero {
   height: 800px;
   background-color: #E4E6DB;
-  background-image: url(../images/hero-bg-img.png);
+  background-image: url(../images/hero-bg-img.png) ;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
