@@ -19,6 +19,7 @@
 
   --bs-btn-hover-color: var(--bs-light);
   --bs-btn-hover-bg: #253a2f;
+  --bs-btn-hover-border-color: #253a2f;
 
   --bs-btn-active-color: var(--bs-light);
   --bs-btn-active-bg: #1e3026;
